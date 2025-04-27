@@ -6,7 +6,7 @@ import requests
 
 app = Flask(__name__)
 
-# I does not have any of the API keys, this is only for demonstration purposes.
+
 RETELL_API_KEY = os.getenv("RETELL_API_KEY", "RETELL_API_KEY")
 VAPI_API_KEY = os.getenv("VAPI_API_KEY", "VAPI_API_KEY")
 
